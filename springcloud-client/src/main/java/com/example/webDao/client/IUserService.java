@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * @author chendong
  * @date 2018-08-30
- * @description
+ * @description  使用demo
  */
 @InnerService("innner-user-api")
 public interface IUserService {
