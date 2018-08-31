@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * @author chendong
  * @date 2018-08-29
- * @description
+ * @description 用于修饰指定接口的注解
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
