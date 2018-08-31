@@ -4,7 +4,7 @@
 在项目用springCloud技术栈重构时开，在调用的规则上，进行了一些优化。
 
 ## 1.主要思路：
-     按照Mybatis与spring整合的方法，在spring加载bean进入容器时，通过扫描指定包下的被指定注解修饰的接口，
+     参照Mybatis与spring整合的方法，在spring加载bean进入容器时，通过扫描指定包下的被指定注解修饰的接口，
      在spring 创建 Beandifine 的时候，使用代理工厂创建实际的动态代理类。
 
 
